@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: flex-start;
+  max-width: 45em;
+  overflow: hidden;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-left: 1em;
+}
+
+.banner-content div {
+  max-width: 45em;
+  margin-right: 3em;
+  margin-left: 1em;
+  margin-top: .25em;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+p {
+  margin: .5em;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 8px;
+  padding: .75em;
+  text-align: center;
+  width: 50%;
+}
+
+.btn-big {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.banner-content img {
+  margin-right: 1em;
+  width: 13em;
+}
